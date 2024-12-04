@@ -2,4 +2,5 @@
 
 ## Project Idea
 
-![dfsProjectIdea drawio](https://github.com/user-attachments/assets/ef11c2b3-b0eb-4fe3-bc04-e6277f36b289)
+![image](https://github.com/user-attachments/assets/f761cb43-b7a5-44e0-b269-b2830646742f)
+
