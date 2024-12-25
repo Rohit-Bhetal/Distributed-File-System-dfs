@@ -1,0 +1,20 @@
+dfs_system/
+│
+├── main.py                # Entry point with DFSCLI implementation
+├── cli/                   # CLI-related components
+│   ├── __init__.py
+│   ├── auth.py            # Handles sign-up and sign-in
+│   ├── commands.py        # Command execution logic
+│   └── banner.py          # For CLI banner design
+│
+├── dfs/                   # Core DFS functionality
+│   ├── __init__.py
+│   ├── chunking.py        # File chunking and merging
+│   ├── server.py          # Logic for pushing files to server
+│   └── metadata.py        # Metadata management
+│
+├── utils/                 # Utility functions
+│   ├── __init__.py
+│   └── helpers.py         # Common utilities like logging or hashing
+└── requirements.txt       # Dependencies
+
