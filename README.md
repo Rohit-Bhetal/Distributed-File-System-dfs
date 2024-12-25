@@ -1,10 +1,7 @@
 
-
 <div align="left" style="position: relative;">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
 <h1>DISTRIBUTED-FILE-SYSTEM-DFS</h1>
-<p align="left">
-</p>
 <p align="left">
 	<!-- Shields.io badges disabled, using skill icons. --></p>
 <p align="left">Built with the tools and technologies:</p>
@@ -426,10 +423,10 @@ Run the test suite using the following command:
 ---
 ## 📌 Project Map
 
-    ![image](https://github.com/user-attachments/assets/f761cb43-b7a5-44e0-b269-b2830646742f)
+![image](https://github.com/user-attachments/assets/f761cb43-b7a5-44e0-b269-b2830646742f)
 
-    - CLI UI
-      ![image](https://github.com/user-attachments/assets/234ff21b-1224-474d-9465-6720ee0c94f4)
+- CLI UI
+![image](https://github.com/user-attachments/assets/234ff21b-1224-474d-9465-6720ee0c94f4)
 
 
 ---
