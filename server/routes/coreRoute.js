@@ -58,10 +58,13 @@ Router.use(verifyToken)
  *       required:
  *         - newName
  *         - oldName
+ *         - hashKey
  *       properties:
  *         newName:
  *           type: string
  *         oldName:
+ *           type: string
+ *         hashKey:
  *           type: string
  */
 /**

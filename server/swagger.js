@@ -9,8 +9,8 @@ const swaggerDefinition = {
     },
     servers: [
       {
-        url: 'http://localhost:3030', // Replace with your server URL
-        description: 'Development server',
+        url: 'https://distributed-file-system-dfs.onrender.com', // Replace with your server URL
+        description: 'Production server',
       },
     ],
     components: {
