@@ -1,6 +1,6 @@
 
 <div align="left" style="position: relative;">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 ;">
 <h1>DISTRIBUTED-FILE-SYSTEM-DFS</h1>
 <p align="left">
 	<!-- Shields.io badges disabled, using skill icons. --></p>
@@ -263,7 +263,7 @@ The Distributed File System (DFS) is a robust and efficient file management solu
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/func/keyGenerator.js'>keyGenerator.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ This File gnerates the unique key which will be used as password to access the file </code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -274,27 +274,27 @@ The Distributed File System (DFS) is a robust and efficient file management solu
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/core/findFile.js'>findFile.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Express component for Finding the file, Generally used for internal work in CLI</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/core/deleteFile.js'>deleteFile.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Controller for deleting the file based on hashkey</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/core/upload.js'>upload.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Upload the file ,takes Filename as params and generates a key using the  Key generator and sends as a response to the user for accessing the file</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/core/getAll.js'>getAll.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Gets all the file uploaded by the user</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/core/renameFile.js'>renameFile.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Renames the uploaded file takes params as fielname, new filename and hashkey of that file</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/core/download.js'>download.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Download the files uploaded by the user and takes params the uniques key</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -305,7 +305,7 @@ The Distributed File System (DFS) is a robust and efficient file management solu
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/config/dbconn.js'>dbconn.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ MongoDB connection code</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -316,7 +316,7 @@ The Distributed File System (DFS) is a robust and efficient file management solu
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/auth/auth.js'>auth.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Auth Controller</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -327,11 +327,11 @@ The Distributed File System (DFS) is a robust and efficient file management solu
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/routes/authRoute.js'>authRoute.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ auth Routes for authentication</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/routes/coreRoute.js'>coreRoute.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Core Working Routes</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -342,7 +342,7 @@ The Distributed File System (DFS) is a robust and efficient file management solu
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/Rohit-Bhetal/Distributed-File-System-dfs/blob/master/server/middleware/verifyToken.js'>verifyToken.js</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
+						<td><code>❯ Middleware for verifying the token</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -406,18 +406,6 @@ Run Distributed-File-System-dfs using the following command:
 ❯ npm start
 ```
 
-
-### 🧪 Testing
-Run the test suite using the following command:
-**Using `pip`** &nbsp; [<img align="center" src="" />]()
-
-
-
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
-
-```sh
-❯ npm test
-```
 
 
 ---
