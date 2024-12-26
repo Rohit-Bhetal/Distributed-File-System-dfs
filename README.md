@@ -1,13 +1,11 @@
 
 <div align="left" style="position: relative;">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 ;">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 0 ;">
 <h1>DISTRIBUTED-FILE-SYSTEM-DFS</h1>
-<p align="left">
-	<!-- Shields.io badges disabled, using skill icons. --></p>
 <p align="left">Built with the tools and technologies:</p>
 <p align="left">
 	<p>Node js(Express)</p>
-  <p>Python</p>
+  	<p>Python</p>
 </p>
 </div>
 <br clear="right">
@@ -22,11 +20,9 @@
   - [☑️ Prerequisites](#-prerequisites)
   - [⚙️ Installation](#-installation)
   - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
 - [📌 Project Map](#-project-map)
 - [🔰 Contributing](#-contributing)
-- [🎗 License](#-license)
-- [🙌 Acknowledgments](#-acknowledgments)
+- [🙌 Access the Docs](#-accesDocs)
 
 </details>
 <hr>
@@ -465,6 +461,8 @@ Run Distributed-File-System-dfs using the following command:
 ## 🙌 Access the Docs/Api and CLI:
 
 <a href='https://distributed-file-system-dfs.onrender.com/api-docs/'>API Docs</a>
-Download the exe file from dist
+<br>
+
+Download the exe file from dist folder inside the CLI file
 
 ---
