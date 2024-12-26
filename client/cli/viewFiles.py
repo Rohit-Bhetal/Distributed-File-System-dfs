@@ -2,7 +2,7 @@ import requests
 
 def viewFiles(accessToken):
     try:
-        url = 'http://localhost:3030/api/getAll'
+        url = 'https://distributed-file-system-dfs.onrender.com/api/getAll'
         
         header={
             'authorization':accessToken,

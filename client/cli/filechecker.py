@@ -4,7 +4,7 @@ import requests
 def fileChecker(fileName,accessToken):
     fileName=str(fileName).strip()
     try:
-        url = 'http://localhost:3030/api/findFile'
+        url = 'https://distributed-file-system-dfs.onrender.com/api/findFile'
         payload={
             'searchFile':fileName
         }

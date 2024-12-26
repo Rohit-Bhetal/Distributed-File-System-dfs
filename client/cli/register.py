@@ -3,7 +3,7 @@ import requests
 
 
 def register(email,password):
-    url = 'http://localhost:3030/api/signup'
+    url = 'https://distributed-file-system-dfs.onrender.com/api/signup'
     payload={
         'email':email,
         'password':password

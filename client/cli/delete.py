@@ -5,7 +5,7 @@ import requests
 
 def deleteFile(accessKey,hashKey):
     try:
-        url='http://localhost:3030/api/deleteFile'
+        url='https://distributed-file-system-dfs.onrender.com/api/deleteFile'
         payload = {
             'hashKey':hashKey
         }

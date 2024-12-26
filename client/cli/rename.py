@@ -5,7 +5,7 @@ import requests
 
 def renameFile(accessToken,newName,OldName,hashkey):
     try:
-        url='http://localhost:3030/api/renameFile';
+        url='https://distributed-file-system-dfs.onrender.com/api/renameFile';
         header={
             'authorization':accessToken,
             'Content-Type':'application/json'

@@ -24,7 +24,7 @@ def chunking(selected_file,args):
 
 def uploadApi(files,token,file_name):
     try:
-        url = 'http://localhost:3030/api/upload'
+        url = 'https://distributed-file-system-dfs.onrender.com/api/upload'
         payload = {
                 'filename': file_name
                 }

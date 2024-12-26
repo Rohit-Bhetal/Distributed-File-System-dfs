@@ -5,7 +5,7 @@ import os
 
 def downloadFile(accesskey,hashKey):
     try:
-        url = 'http://localhost:3030/api/download'
+        url = 'https://distributed-file-system-dfs.onrender.com/api/download'
         headers= {
             'authorization':accesskey,
             'Content-Type':'application/json'
